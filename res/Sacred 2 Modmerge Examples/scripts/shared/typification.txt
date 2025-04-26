@@ -1,0 +1,25 @@
+newTypification = {
+  id = 226,
+  name = "CLF_FORGE_DAMAGE",
+  stat = "",
+  modreal = 0,
+  modfocus = 0,
+  modbasepoints = 0,
+  bonusgroupID = 0,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(226, newTypification);
+
+newTypification = {
+  id = 36,
+  name = "CLF_ICON",
+  stat = "",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 1200,
+  bonusgroupID = 261,
+  weapondamagespread = 0,
+  fightdistance = -1.000000,
+}
+mgr.createTypification(999, newTypification);

@@ -1,0 +1,48 @@
+FLAG_NOALTINFO = 1;
+FLAG_NOSPAWN = 2;
+FLAG_EQUIPCUT = 4;
+FLAG_OBSTRUCTSOUND = 1024;
+
+newItemType = {
+	-- standard info
+	renderfamily = "RENDERFAM_CREATURE",
+	family       = "FAMILY_CREATURE",
+	subfamily    = "SUBFAM_LIFE_HUMAN",
+	classification = "CLF_DEFAULT",
+	flags        = "FLAG_HASHAIR + FLAG_HASBLINKANIM + FLAG_HASSOUND + FLAG_HASPREVIEWIMAGE + FLAG_NO_ANIM_OPTIMIZATION",
+	weargroup    = "WEARGROUP_SERAPHIM",
+	-- 3d model + animation info
+	model0Data = {
+	  name         = "models/heroes/seraphim/c_sera_skin.GR2",
+	  user         = "WEARGROUP_INVALID",
+	},
+	-- logic bounding box
+  logicBox = {
+    minx=-9.623, miny=-8.72, minz=0.12,
+    maxx=12.52, maxy=13.248, maxz=72.018,
+	},
+	dangerclass   = 0,
+}
+mgr.typeCreate(1, newItemType);
+
+newItemType = {
+	-- standard info
+	renderfamily = "RENDERFAM_CREATURE",
+	family       = "FAMILY_CREATURE",
+	subfamily    = "SUBFAM_LIFE_DRYAD",
+	classification = "CLF_DEFAULT",
+	flags        = "FLAG_HASHAIR + FLAG_HASBLINKANIM + FLAG_HASSOUND + FLAG_HASPREVIEWIMAGE + FLAG_NO_ANIM_OPTIMIZATION",
+	weargroup    = "WEARGROUP_DRYADIN",
+	-- 3d model + animation info
+	model0Data = {
+	  name         = "models/heroes/dryadin/u_dryadin.GR2",
+	  user         = "WEARGROUP_INVALID",
+	},
+	-- logic bounding box
+  logicBox = {
+    minx=-11.385, miny=-6.136, minz=-0.144,
+    maxx=9.482, maxy=8.939, maxz=63.021,
+	},
+	dangerclass   = 0,
+}
+mgr.typeCreate(13014, newItemType);

@@ -1,0 +1,22 @@
+local TVTYPE_BOX       = 7
+local TVTYPE_SPHERE    = 8
+
+mgr.addTriggerVolume({
+      type=TVTYPE_BOX,
+      pos="326.154,2635.421,3010.132",
+      ext="121.014,121.014,121.014",
+      quat="0.000000,0.000000,0.999115,-0.042056",
+      rad="209.602",
+      name = "Obja8827972",
+      onenter = "teleport:sector(1,57,-1);dest(155,2783,-292);",
+}, 1,57,0)
+
+mgr.addTriggerVolume({
+      type=TVTYPE_BOX,
+      pos="1697.896,1690.838,-97.255",
+      ext="20.000,20.000,20.000",
+      quat="0.000000,0.000000,0.000000,1.000000",
+      rad="34.641",
+      name = "NEWENTRYNAME",
+      onenter = "teleport:sector(18,29,0);dest(1394,916,40);",
+}, 2,4,0)

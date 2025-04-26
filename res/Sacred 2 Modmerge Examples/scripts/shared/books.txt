@@ -1,0 +1,37 @@
+local BOOK_FOOD      = 0
+local BOOK_GUIDE     = 10
+local BOOK_HELP      = 11
+local BOOK_ADDON     = 12
+
+mgr.defineBook( BOOK_FOOD, 1, "BOOK_FOOD_ORCISH" )
+mgr.defineBook( BOOK_FOOD, 9, "BOOK_FOOD_ANCIENTRECIEPES" )
+
+mgr.defineBook( BOOK_LOSTDIARY, 4, "BOOK_LOSTDIARY_ELOHINIR1" )
+mgr.defineBook( BOOK_LOSTDIARY, 9, "BOOK_ANATOMY_JOURNAL4" )
+
+mgr.defineBook( BOOK_MAGIC, 3, "BOOK_MAGIC_INTRO" )
+mgr.defineBook( BOOK_MAGIC, 9, "BOOK_MAGIC_POISEN" )
+
+mgr.defineBook( BOOK_RELIGIONS, 0, "BOOK_RELIGIONS_GAIA" )
+mgr.defineBook( BOOK_RELIGIONS, 9, "BOOK_RELIGIONS_LUMEN" )
+
+mgr.defineBook( BOOK_WEAPONS, 0, "BOOK_WEAPONS_INGENERAL" )
+mgr.defineBook( BOOK_WEAPONS, 9, "BOOK_WEAPONS_ARCHERY" )
+
+mgr.defineBook( BOOK_ANATOMY, 0, "BOOK_ANATOMY_KALDUR" )
+mgr.defineBook( BOOK_ANATOMY, 9, "BOOK_ANATOMY_REDEEMER" )
+
+mgr.defineBook( BOOK_MONSTERS, 0, "BOOK_MONSTERS_DRAGONS" )
+mgr.defineBook( BOOK_MONSTERS, 9, "BOOK_MONSTERS_UNDEADS" )
+
+mgr.defineBook( BOOK_HERBS, 0, "BOOK_HERBS_INTRODUCTION" )
+mgr.defineBook( BOOK_HERBS, 9, "BOOK_HERBS_POISEN" )
+
+mgr.defineBook( BOOK_TRAVEL, 0, "BOOK_TRAVEL_BOOK1" )
+mgr.defineBook( BOOK_TRAVEL, 9, "BOOK_TRAVEL_BOOK5" )
+
+mgr.defineBook( BOOK_GUIDE, 0, "BOOK_GUIDE_DWARF" )
+mgr.defineBook( BOOK_GUIDE, 9, "BOOK_GUIDE_GAMBLING" )
+
+mgr.defineBook( BOOK_ADDON, 0, "BOOK_ADDON_KRYPTA" )
+mgr.defineBook( BOOK_ADDON, 9, "BOOK_ADDON_IDEA" )

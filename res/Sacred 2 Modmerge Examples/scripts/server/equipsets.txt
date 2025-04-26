@@ -1,0 +1,28 @@
+mgr.reserveEquipsets(375,1057)
+
+local EQUIPSLOT = {
+	AUTO = 99,
+	WEAPON_R = 1,
+}
+
+mgr.createEquipset {
+	id = 1,
+	set = {
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 402, EQUIPSLOT.AUTO, 1},
+		{ 403, EQUIPSLOT.AUTO, 1},
+	}
+}
+
+mgr.createEquipset {
+	id = 999,
+	set = {
+		{ 675, EQUIPSLOT.AUTO, 0},
+		{ 1050, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+		{ 167, EQUIPSLOT.AUTO, 0},
+	}
+}

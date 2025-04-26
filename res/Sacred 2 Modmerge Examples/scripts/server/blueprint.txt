@@ -1,0 +1,167 @@
+newBlueprint = {
+  id = 179,
+  name = "elve_hunter_wpn_2h_longbow",
+  palettebits = "1111111111111111",
+  dmgvariation = 120,
+  minconstraints = {1,1,0},
+  lvljump = 1,
+  usability = 0,
+  allotment_pmfpi = {1000,0,0,0,0},
+  uniquename = "",
+  specialuseonly = 0,
+  itemtypes = {2481,2483,},
+  wearergroups = {'WEARGROUP_DEFAULT',},
+}
+mgr.createBlueprint(179, newBlueprint);
+
+newBlueprint = {
+  id = 9999,
+  name = "legio_champion_shield",
+  palettebits = "1111111111111111",
+  dmgvariation = 0,
+  minconstraints = {1,1,0},
+  lvljump = 1,
+  usability = 0,
+  allotment_pmfpi = {1000,0,0,0,0},
+  uniquename = "",
+  specialuseonly = 1,
+  itemtypes = {3417,},
+  wearergroups = {'WEARGROUP_DEFAULT',},
+}
+mgr.createBlueprint(9999, newBlueprint);
+
+newBlueprint = {
+  id = 10000,
+  name = "legio_warrior_shield",
+  palettebits = "1111111111111111",
+  dmgvariation = 0,
+  minconstraints = {1,1,0},
+  lvljump = 1,
+  usability = 0,
+  allotment_pmfpi = {1000,0,0,0,0},
+  uniquename = "",
+  specialuseonly = 1,
+  itemtypes = {3259,},
+  wearergroups = {'WEARGROUP_SKELETON_WARRIOR',},
+}
+mgr.createBlueprint(10000, newBlueprint);
+
+newBonus = {
+--  name = "sb_addskill_ATT_swordlore",
+  rating = 27,
+  basedonskill = "SKILL_INVALID",
+  type = "BONUS_SKILL",
+  spez = "SKILL_SWORD_LORE",
+  spez2 = "",
+  usagebits = 65527,
+  minconstraints = {1,1,0},
+  difficultyvaluerange0 = {0,10,100},
+  difficultyvaluerange1 = {1,15,125},
+  difficultyvaluerange2 = {2,20,150},
+  difficultyvaluerange3 = {3,25,175},
+  difficultyvaluerange4 = {4,30,200},
+}
+mgr.createBonus(5, newBonus);
+
+newBonus = {
+--  name = "sb_addskill_ATT_tactics",
+  rating = 27,
+  basedonskill = "SKILL_INVALID",
+  type = "BONUS_SKILL",
+  spez = "SKILL_TACTICS_LORE",
+  spez2 = "",
+  usagebits = 65519,
+  minconstraints = {1,1,0},
+  difficultyvaluerange0 = {0,10,100},
+  difficultyvaluerange1 = {1,15,125},
+  difficultyvaluerange2 = {2,20,150},
+  difficultyvaluerange3 = {3,25,175},
+  difficultyvaluerange4 = {4,30,200},
+}
+mgr.createBonus(9999, newBonus);
+
+newBonus = {
+--  name = "sb_addskill_DEF_pacifism",
+  rating = 27,
+  basedonskill = "SKILL_INVALID",
+  type = "BONUS_SKILL",
+  spez = "SKILL_PACIFISM",
+  spez2 = "",
+  usagebits = 65535,
+  minconstraints = {1,1,0},
+  difficultyvaluerange0 = {0,10,100},
+  difficultyvaluerange1 = {1,15,125},
+  difficultyvaluerange2 = {2,20,150},
+  difficultyvaluerange3 = {3,25,175},
+  difficultyvaluerange4 = {4,30,200},
+}
+mgr.createBonus(10000, newBonus);
+
+
+newBonusgroup = {
+  id = 18,
+  name = "WB_swdl_bypass_armor                                                                                                            ",
+  bonuslist = { 12,},
+}
+mgr.createBonusgroup(18, newBonusgroup);
+
+
+newBonusgroup = {
+  id = 9999,
+  name = "WB_swdl_bleeding                                                                                                                ",
+  bonuslist = { 13,},
+}
+mgr.createBonusgroup(9999, newBonusgroup);
+
+newBonusgroup = {
+  id = 10000,
+  name = "SB_off_attackspeed                                                                                                              ",
+  bonuslist = { 14,},
+}
+mgr.createBonusgroup(10000, newBonusgroup);
+
+
+newBlueprintSet = { -- Kankas Reliquien (Setboni)
+  id = 32,
+  name = "",
+  singleSet = 1,
+  groupSet = 0,
+  mixedSet = 0,
+  artefact = 0,
+  blueprintsinset = {2210,2211,2212,2209,2206,2207,2208,2397,},
+  bonusgroupsforset0= {645,1200,3,0},
+  bonusgroupsforset1= {537,1500,5,0},
+  bonusgroupsforset2= {803,1800,7,0},
+  bonusgroupsforset3= {890,1800,8,0},
+}
+mgr.createBlueprintset(32, newBlueprintSet);
+
+newBlueprintSet = { -- Pandamoniums Stolz (Setboni)
+  id = 9999,
+  name = "",
+  singleSet = 1,
+  groupSet = 0,
+  mixedSet = 0,
+  artefact = 0,
+  blueprintsinset = {2365,2361,2362,2367,2364,2363,2366,2368,},
+  bonusgroupsforset0= {515,1000,3,0},
+  bonusgroupsforset1= {665,1200,5,0},
+  bonusgroupsforset2= {886,1100,7,0},
+  bonusgroupsforset3= {537,1700,8,0},
+}
+mgr.createBlueprintset(9999, newBlueprintSet);
+
+newBlueprintSet = { -- Kendrics Archon (Setboni)
+  id = 10000,
+  name = "",
+  singleSet = 1,
+  groupSet = 0,
+  mixedSet = 0,
+  artefact = 0,
+  blueprintsinset = {2824,2823,2817,2818,2819,2820,2821,2822,},
+  bonusgroupsforset0= {767,1000,3,0},
+  bonusgroupsforset1= {402,800,5,0},
+  bonusgroupsforset2= {666,800,7,0},
+  bonusgroupsforset3= {803,800,8,0},
+}
+mgr.createBlueprintset(10000, newBlueprintSet);

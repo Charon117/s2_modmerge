@@ -1,0 +1,17 @@
+newItemInfo = {
+	type           = 53,
+	material       = "W_metal_iron",
+	usability      = 0,
+	invbreite      = 1,
+	invhoehe       = 3,
+}
+mgr.itemInfoCreate(newItemInfo);
+
+newItemInfo = {
+	type           = 99999,
+	material       = "W_metal_steel",
+	usability      = 0,
+	invbreite      = 1,
+	invhoehe       = 3,
+}
+mgr.itemInfoCreate(newItemInfo);

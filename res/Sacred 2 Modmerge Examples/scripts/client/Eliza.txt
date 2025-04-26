@@ -1,0 +1,55 @@
+
+mgr.addDlgVoices( { group = "LIZ_LIZ", voices = "------13ab5c4-------------++++++"} );
+mgr.addDlgVoices( { group = "HUM_PRI123", voices = "--5-------4--a-b---c------++++++"} );
+
+mgr.addDlgAdvanceVoices( { race = "HUMANPOOR",  voices = "------------1-1-1------------111"} );
+mgr.addDlgAdvanceVoices( { race = "HUMANPOOR123",  voices = "------------1-1-1------------111"} );
+
+mgr.addDlgFactionVoices( { voices = "--------------1-32-----------213123", race = "HUMANPOOR123" } );
+mgr.addDlgFactionVoices( { voices = "-----------------------------312---", race = "HIGHELVENPRIEST_GUARD" } );
+
+mgr.addDlgCombatVoices( { group = "DRYADE_M123",       voices = "M24" } );
+mgr.addDlgCombatVoices( { group = "GHOST_M",        voices = "M7,M8" } );
+
+mgr.addDlgGroupDlg( { comm = "HEL_ELF", stat = "HEL_ELF",
+    greet_strt = "aaaabbbccc",
+    greet_cont = "1122334455",
+    topc1_strt = "1112223333",
+    topc1_cont = "aaabbbcccc",
+    topc2_strt = "4445551111",
+    topc2_cont = "aaabbbbccc",
+    topc3_strt = "2223334444",
+    topc3_cont = "aaaabbbccc",
+    topc4_strt = "5551112222",
+    topc4_cont = "aaabbbbccc",
+    topc5_strt = "3334445555",
+    topc5_cont = "aaaabbbccc",
+    topc6_strt = "1112223333",
+    topc6_cont = "aaaabbbccc",
+    topc7_strt = "4445551111",
+    topc7_cont = "aaabbbcccc",
+    topc8_strt = "2223334444",
+    topc8_cont = "aaabbbbccc",
+    topc9_strt = "5551112222",
+    topc9_cont = "aaaabbbccc",
+    goodb_strt = "11223344551122334455",
+    goodb_cont = "aaabbbccccaaabbbcccc",
+    continue   = "1122333444555" } );
+mgr.addDlgGroupDlg( { comm = "HEL_PRI123", stat = "HEL_PRI123",
+    greet_strt = "aaaabbbccc",
+    greet_cont = "1122334455",
+    topc1_strt = "1112223333",
+    topc1_cont = "aaabbbbccc",
+    topc2_strt = "4445551111",
+    topc2_cont = "aaaabbbccc",
+    topc3_strt = "2223334444",
+    topc3_cont = "aaabbbcccc",
+    topc4_strt = "5551112222",
+    topc4_cont = "aaaabbbccc",
+    topc5_strt = "3334445555",
+    topc5_cont = "aaabbbcccc",
+    topc6_strt = "1112223333",
+    topc6_cont = "aaaabbbccc",
+    goodb_strt = "1122334455",
+    goodb_cont = "aaaabbbccc",
+    continue   = "1112233444555" } );

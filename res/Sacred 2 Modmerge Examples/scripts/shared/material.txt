@@ -1,0 +1,29 @@
+newMaterial = {
+  id = 59,
+  name = "W_yew_ice",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 333,
+  allotfire = 0,
+  allotice = 667,
+  allotpoison = 0,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(59, newMaterial);
+
+newMaterial = {
+  id = 60,
+  name = "W_yew_poison",
+  modreal = 1000,
+  modfocus = 0,
+  modbasepoints = 950,
+  allotphys = 333,
+  allotfire = 0,
+  allotice = 0,
+  allotpoison = 667,
+  allotmagic = 0,
+  materialsound = "SOUND_MATERIAL_STANDARD",
+}
+mgr.createMaterial(99, newMaterial);

@@ -1,0 +1,24 @@
+PATCH_FLAG_TENERGY = 9;
+
+newPatch = {
+	type         = 1,
+	name         = "Erdboden-gemaessigt",
+	texture0Name = "patches/standard/r_felsboden_1_d.tga",
+	texture1Name = "patches/standard/r_Erdboden-gemaessigt-C2B25B_ns.tga",
+	flags        = 0,
+	previewColor = { r = 1.0, g = 0.9, b = 1.0, },
+	groundType   = "PATCH_GTYPE_EARTH",
+}
+mgr.patchCreate(newPatch);
+
+newPatch = {
+	type         = 1250,
+	name         = "fine-gras_06-2",
+	texture0Name = "patches/standard/r_fine-gras_06-2_d.tga",
+	texture1Name = "patches/standard/r_fine-gras_06_ns.tga",
+	flags        = 0,
+	previewColor = { r = 1.0, g = 0.9, b = 1.0, },
+	editorGroup = "Blutwald/Gras/Fine-Gras2",
+	groundType   = "PATCH_GTYPE_GRASS",
+}
+mgr.patchCreate(newPatch);

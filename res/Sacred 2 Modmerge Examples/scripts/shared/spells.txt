@@ -1,0 +1,62 @@
+-- "The game does NOT accept additional Token Bonuses.﻿﻿" - Flix on the Darkmatter Forum
+
+mgr.defineSpell( "enemy_gen_chainlightning", {
+	eiStateName = "cSpellCast",
+	fxTypeCast = "",
+	fxTypeSpell = "FX_HE_ENERGIEBLITZ",
+	fxTypeCastSpecial = "",
+	duration = 15.000000,
+	animType = "ANIM_TYPE_MAGICA",
+	animTypeApproach = "ANIM_TYPE_INVALID",
+	animTypeRide = "ANIM_TYPE_INVALID",
+	animTypeSpecial = "ANIM_TYPE_INVALID",
+	causesSpellDamage = 1,
+	tokens = {
+		entry0 = {"et_chance_chain_nr", 850, 2, 0, 4 },
+		entry1 = {"et_spelldamage_ice", 560, 280, 0, 133 },
+		entry2 = {"et_spelldamage_physical", 420, 210, 0, 133 },
+		entry3 = {"et_closedown_buff", 1000, 5, 0, 5 },
+	},
+	fightDistance = 525.000000,
+	aspect = "EA_ENEMY_ANY",
+	cooldown = 2.000000,
+	soundProfile = 0,
+	cost_level = 200,
+	cost_base = 300,
+	focus_skill_name = "skill__enemy_focus",
+	lore_skill_name = "skill__enemy_lore",
+	spellClass = "cSpellHeEnergieblitz",
+	spellcontroltype = "eCAtype_a_effect_attack",
+	sorting_rank = 0,
+})
+
+mgr.defineSpell( "boss_fog_hit_NEWENTRY", {
+	eiStateName = "cSpellCast",
+	fxTypeCast = "",
+	fxTypeSpell = "",
+	fxTypeCastSpecial = "",
+	duration = 10.000000,
+	animType = "ANIM_TYPE_MAGICA",
+	animTypeApproach = "ANIM_TYPE_INVALID",
+	animTypeRide = "ANIM_TYPE_INVALID",
+	animTypeSpecial = "ANIM_TYPE_INVALID",
+	causesSpellDamage = 1,
+	tokens = {
+		entry0 = {"et_spelldamage_ice", 750, 100, 0, 133 },
+		entry1 = {"et_hits_persec", 667, 0, 0, 4 },
+		entry2 = {"et_range_area", 1000, 0, 0, 4 },
+	},
+	fightDistance = 0.000000,
+	aspect = "EA_ENEMY_ANY",
+	cooldown = 5.000000,
+	soundProfile = 0,
+	cost_level = 0,
+	cost_base = 0,
+	focus_skill_name = "skill__enemy_focus",
+	lore_skill_name = "skill__enemy_lore",
+	spellClass = "cSpellBossCmKaelteAura",
+	spellcontroltype = "eCAtype_t_buff",
+	sorting_rank = 0,
+})
+
+mgr.addTokenBonus( {"et_energy_anihilation", 796 })  -- 796 = bb_energy_anihilation

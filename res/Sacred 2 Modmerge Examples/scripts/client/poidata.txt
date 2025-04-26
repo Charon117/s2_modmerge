@@ -1,0 +1,5 @@
+mgr.addPoIData( { id="POI_REGION_CANYON", offx=0.000488, offy=0.000977, widx=0.114746, widy=0.438477, screenx=108, screeny=1005} );
+
+mgr.addPoIData( { id="POI_TOWN_THARUM_NEW_PLACE", offx=0.510742, offy=0.796875, widx=0.036621, widy=0.080078, screenx=959, screeny=1438} );
+
+mgr.addPoIData( { id="POI_TOWN_KHORUM", offx=0.000488, offy=0.441406, widx=0.062988, widy=0.139648, screenx=1238, screeny=1410} );

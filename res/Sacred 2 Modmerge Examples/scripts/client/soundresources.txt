@@ -1,0 +1,7 @@
+newResource = {
+	resource1 = { id = 3128, name = "fx/weapon_sfx/fx_dark_whisper_1.wav", group = 3, length = 3.748 }, --example for changed entry
+	resource2 = { id = 3129, name = "fx/weapon_sfx/fx_dark_whisper_2.wav", group = 3, length = 2.724 },
+	resource3 = { id = 3130, name = "fx/weapon_sfx/fx_dark_whisper_3.wav", group = 3, length = 2.433 },
+	resource4 = { id = 3131, name = "fx/weapon_sfx/fx_dark_whisper_4.wav", group = 3, length = 2.959 },
+}
+mgr.soundResourceCreate(newResource, 1);

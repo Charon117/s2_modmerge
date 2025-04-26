@@ -1,0 +1,14 @@
+mgr.addWeaponPool { -- dm_dm_arms
+	dbid = 1124,
+	prefDmg = 1,
+	prefDmgProb = 0,
+	content = {3170,},
+	contentProb = {1,},
+}
+mgr.addWeaponPool { -- dm_dm_chest
+    dbid = 9999,
+    prefDmg = 1,
+    prefDmgProb = 0,
+    content = {3223,},
+    contentProb = {1,},
+}

@@ -1,0 +1,293 @@
+mgr.createDroplist(1386,{ -- Drop_Standard
+	id = 1386,
+	rank = 0,
+	dmgpreference = 0,
+	dmgprobability = 0,
+	entry0 = {
+		weightedprob=50,
+		droplist=1385,
+	},
+	entry1 = {
+		weightedprob=10,
+		droplist=1418,
+	},
+	entry2 = {
+		weightedprob=5,
+		droplist=1463,
+	},
+	entry3 = {
+		weightedprob=30,
+		droplist=1465,
+	},
+	entry4 = {
+		weightedprob=40,
+		droplist=1466,
+	},
+	entry5 = {
+		weightedprob=40,
+		droplist=1480,
+	},
+	entry6 = {
+		weightedprob=5,
+		droplist=1489,
+	},
+	entry7 = {
+		weightedprob=3,
+		droplist=1523,
+	},
+	entry8 = {
+		weightedprob=1,
+		droplist=1529,
+	},
+	entry9 = { -- Droplist_Shelf for clover or gold possibility
+		weightedprob=1,
+		droplist=1412,
+	},
+})
+mgr.createDroplist(9999,{ -- Droplist_all_normal_ARMOR_ONLY
+	id = 9999,
+	rank = 0,
+	dmgpreference = 0,
+	dmgprobability = 0,
+	entry0 = {
+		weightedprob=10,
+		blueprint=1134,
+	},
+	entry1 = {
+		weightedprob=10,
+		blueprint=1137,
+	},
+	entry2 = {
+		weightedprob=10,
+		blueprint=1138,
+	},
+	entry3 = {
+		weightedprob=10,
+		blueprint=1139,
+	},
+	entry4 = {
+		weightedprob=10,
+		blueprint=1147,
+	},
+	entry5 = {
+		weightedprob=10,
+		blueprint=1155,
+	},
+	entry6 = {
+		weightedprob=10,
+		blueprint=1158,
+	},
+	entry7 = {
+		weightedprob=10,
+		blueprint=1161,
+	},
+	entry8 = {
+		weightedprob=10,
+		blueprint=1164,
+	},
+	entry9 = {
+		weightedprob=10,
+		blueprint=1166,
+	},
+	entry10 = {
+		weightedprob=10,
+		blueprint=1170,
+	},
+	entry11 = {
+		weightedprob=10,
+		blueprint=1173,
+	},
+	entry12 = {
+		weightedprob=10,
+		blueprint=1176,
+	},
+	entry13 = {
+		weightedprob=10,
+		blueprint=1178,
+	},
+	entry14 = {
+		weightedprob=10,
+		blueprint=1182,
+	},
+	entry15 = {
+		weightedprob=10,
+		blueprint=1185,
+	},
+	entry16 = {
+		weightedprob=10,
+		blueprint=1188,
+	},
+	entry17 = {
+		weightedprob=10,
+		blueprint=1190,
+	},
+	entry18 = {
+		weightedprob=10,
+		blueprint=1194,
+	},
+	entry19 = {
+		weightedprob=10,
+		blueprint=1197,
+	},
+	entry20 = {
+		weightedprob=10,
+		blueprint=1200,
+	},
+	entry21 = {
+		weightedprob=10,
+		blueprint=1202,
+	},
+	entry22 = {
+		weightedprob=10,
+		blueprint=1206,
+	},
+	entry23 = {
+		weightedprob=10,
+		blueprint=1209,
+	},
+	entry24 = {
+		weightedprob=10,
+		blueprint=1212,
+	},
+	entry25 = {
+		weightedprob=10,
+		blueprint=1214,
+	},
+	entry26 = {
+		weightedprob=10,
+		blueprint=1224,
+	},
+	entry27 = {
+		weightedprob=10,
+		blueprint=1234,
+	},
+	entry28 = {
+		weightedprob=10,
+		blueprint=1240,
+	},
+	entry29 = {
+		weightedprob=10,
+		blueprint=1246,
+	},
+	entry30 = {
+		weightedprob=10,
+		blueprint=1261,
+	},
+	entry31 = {
+		weightedprob=10,
+		blueprint=1267,
+	},
+	entry32 = {
+		weightedprob=10,
+		blueprint=1275,
+	},
+	entry33 = {
+		weightedprob=10,
+		blueprint=1283,
+	},
+	entry34 = {
+		weightedprob=10,
+		blueprint=1290,
+	},
+	entry35 = {
+		weightedprob=10,
+		blueprint=1296,
+	},
+	entry36 = {
+		weightedprob=10,
+		blueprint=1298,
+	},
+	entry37 = {
+		weightedprob=10,
+		blueprint=1302,
+	},
+	entry38 = {
+		weightedprob=10,
+		blueprint=1305,
+	},
+	entry39 = {
+		weightedprob=10,
+		blueprint=1415,
+	},
+	entry40 = {
+		weightedprob=10,
+		blueprint=1932,
+	},
+	entry41 = {
+		weightedprob=10,
+		blueprint=1938,
+	},
+	entry42 = {
+		weightedprob=10,
+		blueprint=1942,
+	},
+	entry43 = {
+		weightedprob=10,
+		blueprint=1944,
+	},
+	entry44 = {
+		weightedprob=10,
+		blueprint=1949,
+	},
+	entry45 = {
+		weightedprob=10,
+		blueprint=1953,
+	},
+	entry46 = {
+		weightedprob=10,
+		blueprint=1956,
+	},
+	entry47 = {
+		weightedprob=10,
+		blueprint=2004,
+	},
+	entry48 = {
+		weightedprob=10,
+		blueprint=2009,
+	},
+	entry49 = {
+		weightedprob=10,
+		blueprint=2013,
+	},
+	entry50 = {
+		weightedprob=10,
+		blueprint=2016,
+	},
+	entry51 = {
+		weightedprob=10,
+		blueprint=2031,
+	},
+})
+
+mgr.createDroppattern(21,{
+	id = 21,
+	dangerclass = 2,
+	inittype = 1,
+	entry0 = {
+		expecttype=2,
+		droplist=1464,
+		minquality=9,
+	},
+	entry1 = {
+		expecttype=1,
+		droplist=1386,
+		minquality=0,
+	},
+	entry2 = {
+		expecttype=17,
+		droplist=1501,
+		minquality=6,
+	},
+})
+mgr.createDroppattern(999,{
+	id = 999,
+	dangerclass = 3,
+	inittype = 1,
+})
+
+local shrinkheadDropMap = {
+	{"SUBFAM_LIFE_ANIMAL",1735},
+	{"SUBFAM_NEWENTRY_NEWENTRY",1537},
+	{"SUBFAM_LIFE_DRAGON",1844,4823},
+}
+mgr.loadShrinkheadDropMap(shrinkheadDropMap)

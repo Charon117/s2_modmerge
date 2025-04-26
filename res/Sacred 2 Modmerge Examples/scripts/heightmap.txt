@@ -1,0 +1,27 @@
+-- channel A
+scaling	= {
+	-- add the height values to the current height
+	AddToHeight	= 0,	-- 0==off, 1==on
+	Dig		= 0,
+	AddNoise	= 0,	-- 0==off, 1==on
+	ZeroLevel	= 0,
+	Min		= 0,
+	Max		= 128,
+
+	UseBlur		= 1,
+	BlurIntensity	= 15
+}
+mgr.defineScaling( 0, scaling );
+
+-- channel R
+scaling = {
+	AddToHeight	= 1,
+	Dig		= 0,
+	AddNoise	= 0,
+	ZeroLevel	= 0.5,
+	Min		= -64,
+	Max		= 64,
+
+	UseBlur		= 1,
+}
+mgr.defineScaling( 9, scaling );

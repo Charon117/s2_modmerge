@@ -1,0 +1,14 @@
+mgr.addSpawn (61,13,0,{ -- Butwald Augen
+	total_density = 20,
+	layermap_id = 3,
+	{2061,3,"",0,0,0,0},
+} )
+
+mgr.addSpawn (99,99,99,{ -- Kristallregion Gartor
+	total_density = 99,
+	layermap_id = 9,
+	{2500,4,"",0,0,0,0},
+	{2501,1,"",0,0,1,0},
+	{2500,2,"",0,0,2,0},
+	{2501,1,"",0,0,3,0},
+} )

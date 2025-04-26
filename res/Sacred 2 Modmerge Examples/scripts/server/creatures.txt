@@ -1,0 +1,159 @@
+mgr.createCreature { -- fuer Haenir
+	id = 2505, -- letzte id war 2504
+	itemtype_id = 7621, -- v_hu-m@viking-seaman.GR2
+	name = "HU_Snowviking_captain_01_elite",
+	behaviour = "Enemy_warrior_brave_ex",
+	dangerclass = 9,
+	groupmaxcount = 1,
+	elite_creature_id = 2505, -- ist elite
+	probabilityforelite = 0.000000, -- ist elite
+	rank = 90,
+	tenergy_creature_id = 441, -- tenerg_human_soldier_mutate
+	template_creature_id = 1384, -- Template_HU_viking_elite
+	livesremaining = 0,
+	unconscioustime = 20,
+	palettebits = "1111111111111111",
+	monstertype = 2, -- vikings = 0,
+	faction_id = 37,
+	equipset_id = 186,
+	modelscale = 1.500000,
+	rise_from_ground = 0,
+	has_corpse = 1,
+	has_soul = 1,
+	can_strafe = 0,
+	spells = {
+		entry0 = { "enemy_area_bannkreis" },
+		entry1 = { "enemy_trap_magic" },
+		entry2 = { "enemy_whit_verlangsamen" },
+		entry3 = { "enemy_whit_harterschlag" },
+		entry4 = { "enemy_grp_boost_dmg" },
+	},
+}
+
+mgr.createCreature {
+	id = 50,
+	itemtype_id = 2524,
+	name = "Barb_cobold_mage_elite",
+	behaviour = "Enemy_mage",
+	dangerclass = 4,
+	groupmaxcount = 1,
+	elite_creature_id = 52,
+	probabilityforelite = 0.000000,
+	rank = 90,
+	tenergy_creature_id = 258,
+	template_creature_id = 1200,
+	livesremaining = 0,
+	unconscioustime = 5,
+	palettebits = "1111111111111111",
+	monstertype = 1,
+	faction_id = 37,
+	equipset_id = 61,
+	modelscale = 1.100000,
+	rise_from_ground = 0,
+	has_corpse = 1,
+	has_soul = 1,
+	can_strafe = 0,
+	spells = {
+		entry0 = { "enemy_pestball" },
+		entry1 = { "enemy_spawn_erdele_small" },
+	},
+}
+
+mgr.createCreature {
+	id = 99999,
+	itemtype_id = 99998,
+	name = "Template_wild_rat",
+	behaviour = "defaultBehaviour",
+	dangerclass = 0,
+	groupmaxcount = 0,
+	probabilityforelite = 0.000000,
+	rank = 0,
+	livesremaining = 0,
+	unconscioustime = 20,
+	palettebits = "1111111111111111",
+	monstertype = 0,
+	faction_id = 7,
+	modelscale = 1.000000,
+	rise_from_ground = 0,
+	has_corpse = 1,
+	has_soul = 1,
+	can_strafe = 0,
+}
+
+if not mgr.addCreatureBonus then
+	mgr.addCreatureBonus = function(a,b) end
+end
+
+
+mgr.addCreatureBonus( 1005, {intensity = 2000, bonus = 26,})
+mgr.addCreatureBonus( 1005, {
+	intensity = 400,
+	bonus = 256,
+})
+
+mgr.addCreatureBonus( 1008, {intensity = 1020, bonus = 22,})
+mgr.addCreatureBonus( 1008, {
+	intensity = 120,
+	bonus = 20,
+})
+
+
+mgr.createSkill {
+	skill_name = "skill__enemy_focus",
+	advance_level = 255,
+	min_level = 1,
+	mean_value = 200,
+	advance_mean_value = 0,
+	skillgroup = "SKG_ASPECTS",
+}
+
+mgr.createSkill {
+	skill_name = "skill__enemy_lore_NEW_ENTRY",
+	advance_level = 255,
+	min_level = 1,
+	mean_value = 200,
+	advance_mean_value = 0,
+	skillgroup = "SKG_ASPECTS",
+}
+
+mgr.addCreatureSkill( 1388, {
+	skill_id = 138,
+	advanced = 0,
+	skill_name = "skill_speed_mastery",
+})
+mgr.addCreatureSkill( 1388, {	skill_id = 1, 	advanced = 0, 	skill_name = "skill_sword_lore",					})
+
+mgr.addCreatureSkill( 1803, {
+	skill_id = 138,
+	advanced = 0,
+	skill_name = "skill_speed_mastery",
+})
+mgr.addCreatureSkill( 1803, {	skill_id = 2, 	advanced = 0, 	skill_name = "skill_hafted_weapon_lore",					})
+
+mgr.addCreatureBpRelation {
+	creature_id = 115,
+	blueprint_id = 1764,
+}
+
+mgr.addCreatureBpRelation {	creature_id = 542, 	blueprint_id = 1765,	}
+
+
+if not mgr.addMapPos then
+	mgr.addMapPos = function(a) end
+end
+
+mgr.addMapPos {
+	merchantType = 2,
+    position = { 25,32,0 , 2708.030,578.617,-11.425, 208.000 },
+}
+
+mgr.addMapPos {
+	merchantType = 4,
+    position = {
+      x = 146300.00,
+      y = 62350.00,
+      z = 0.00,
+      layer = 0,
+      orientation = 1.000,
+    },
+}

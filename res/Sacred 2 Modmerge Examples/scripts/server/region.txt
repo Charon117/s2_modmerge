@@ -1,0 +1,17 @@
+mgr.regionSetup(150,{
+	name = "Spec. Location 11 - Multiplayer Island (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 22,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})
+
+mgr.regionSetup(999,{
+	name = "Spec. Location 09 - Skeleton Bar (0)",
+	minLevel = 0,
+	maxLevel = 0,
+	musicProfile = 20,
+	roomSetup =  1,
+	dungeonSetup =  7,
+})

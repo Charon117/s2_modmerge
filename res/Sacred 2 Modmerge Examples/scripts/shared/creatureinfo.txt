@@ -1,0 +1,63 @@
+SMT_DEFAULT = 8;
+SMT_HERO = 9;
+
+newCreatureInfo = {
+  type         = 1,
+  walkSpeed    = 45,
+  runSpeed     = 190,
+  fightDistMin = 12,
+  fightDistMax = 16,
+  gender       = 3,
+  agegroup     = 3,
+	validEquipSlots = "EID_WEAPON_R + EID_WEAPON_L + EID_SHIELD_L + EID_HELMET + EID_SHOULDER + EID_CHEST + EID_ARM + EID_HAND + EID_LEG + EID_BOOT + EID_WINGS + EID_BELT + EID_BELT_SKIRT + EID_JEWELERY_RING_1 + EID_JEWELERY_RING_2 + EID_JEWELERY_AMULET_1 + EID_ORB_1 + EID_ORB_2 + EID_ORB_3 + EID_ORB_4 + EID_ORB_5 + EID_ORB_6 + EID_ORB_7 + EID_ORB_8 + EID_ORB_9 + EID_ORB_10 + EID_ORB_11 + EID_ORB_12",
+	defaultSMType = SMT_HERO,
+	behaviour     = "WildAnimal",
+  hair1Itemtype = 73,
+  hair2Itemtype = 544,
+  hair3Itemtype = 11889,
+  hair4Itemtype = 11890,
+  hair5Itemtype = 12989,
+  hair6Itemtype = 12990,
+  tailItemtype  = 0,
+	dangerClass   = 7,
+  weight        = 80,
+	eBloodEffect  = "BLOODFX_RED",
+	eq_fallback = { 4357, 4358, 4359 },
+}
+mgr.creatureInfoCreate(newCreatureInfo);
+
+newCreatureInfo = {
+  type         = 99999,
+  walkSpeed    = 50,
+  runSpeed     = 150,
+  fightDistMin = 50,
+  fightDistMax = 75,
+  gender       = 1,
+  agegroup     = 1,
+	validEquipSlots = "0",
+	defaultSMType = SMT_DEFAULT,
+	behaviour     = "WildAnimal",
+  hair1Itemtype = 0,
+  hair2Itemtype = 0,
+  hair3Itemtype = 0,
+  hair4Itemtype = 0,
+  hair5Itemtype = 0,
+  hair6Itemtype = 0,
+  tailItemtype  = 0,
+	dangerClass   = 1,
+  weight        = 150,
+	eBloodEffect  = "BLOODFX_RED",
+}
+mgr.creatureInfoCreate(newCreatureInfo);
+
+newCreatureInfo = {
+  type         = 5544,
+  runSpeed     = 260,
+}
+mgr.creatureInfoCreate(newCreatureInfo);
+
+newCreatureInfo = {
+  type         = 5145,
+  runSpeed     = 200,
+}
+mgr.creatureInfoCreate(newCreatureInfo);

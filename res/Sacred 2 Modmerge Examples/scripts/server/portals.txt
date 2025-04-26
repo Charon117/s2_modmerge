@@ -1,0 +1,11 @@
+
+local PORTALTYPE_WORLD = 0
+local PORTALTYPE_SHIP_NORTH  = 1
+local PORTALTYPE_SHIP_SOUTH  = 2
+
+mgr.definePortal { id= 0, woid=1015902410, type=PORTALTYPE_WORLD }     -- startinsel
+mgr.definePortal { id=10, woid=1020287025, type=PORTALTYPE_WORLD }     -- sera dungeon
+
+mgr.definePortal { id= 1, woid=1023664860, type=PORTALTYPE_SHIP_NORTH }      -- ork
+
+mgr.definePortal { id= 1, woid=1023495575, type=PORTALTYPE_SHIP_SOUTH }      -- canyon

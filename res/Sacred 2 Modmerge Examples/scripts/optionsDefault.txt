@@ -1,0 +1,13 @@
+network = {
+	lobby_ip = "eu.sacred2.net",
+}
+
+key_bindings_default = {
+	binding_zoomin                        = Key.PGUP,
+
+	--binding_togglecamera				  = Key.V,
+
+	binding_weapon_5                      = Key.F5,
+
+	binding_toggle_minion_attackmode      = Key.SLASH,
+}

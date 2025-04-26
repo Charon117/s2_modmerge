@@ -1,0 +1,37 @@
+newProfile = {
+	profilename  = "Armor Dryad Crystal",
+	type1         = 4311,
+	type2         = 10104,
+	type3         = 10105,
+	type4         = 10106,
+	mindistancefactor = 80,
+	maxdistancefactor = 100,
+	event1 = { event = "PRE_HIT", resource = 68700 };
+	event2 = { event = "PRE_HIT", resource = 68701 };
+	event3 = { event = "PRE_HIT", resource = 68702 };
+	event4 = { event = "PRE_HIT", resource = 68703 };
+	event5 = { event = "PRE_HIT", resource = 68704 };
+	event6 = { event = "PRE_HIT", resource = 68705 };
+	event7 = { event = "PRE_HIT", resource = 68706 };
+	event8 = { event = "PRE_HIT", resource = 68707 };
+}
+mgr.soundProfileCreate(newProfile);
+
+newProfile = {
+	profilename  = "Armor Dryad Ivy NEW PROFILE",
+	type1         = 5635,
+	type2         = 10158,
+	type3         = 10160,
+	type4         = 10161,
+	mindistancefactor = 80,
+	maxdistancefactor = 100,
+	event1 = { event = "PRE_HIT", resource = 68708 };
+	event2 = { event = "PRE_HIT", resource = 68709 };
+	event3 = { event = "PRE_HIT", resource = 68710 };
+	event4 = { event = "PRE_HIT", resource = 68711 };
+	event5 = { event = "PRE_HIT", resource = 68712 };
+	event6 = { event = "PRE_HIT", resource = 68713 };
+	event7 = { event = "PRE_HIT", resource = 68714 };
+	event8 = { event = "PRE_HIT", resource = 68715 };
+}
+mgr.soundProfileCreate(newProfile);

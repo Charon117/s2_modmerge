@@ -1,0 +1,25 @@
+mgr.addFaction {
+	id = 1,
+	name = "FACTION_INVALID",
+}
+
+mgr.addFaction {
+	id = 999,
+	name = "FACTION_ATMO",
+}
+
+mgr.addFactionRelation {
+	id1 = 57,
+	id2 = 9,
+	f1name = "FACTION_ENEMY_HERO",
+	f2name = "FACTION_HERO_BAD",
+	relation = "FRT_ENEMY",
+}
+
+mgr.addFactionRelation {
+	id1 = 998,
+	id2 = 999,
+	f1name = "FACTION_HERO_BAD",
+	f2name = "FACTION_ENEMY_HERO",
+	relation = "FRT_ENEMY",
+}

@@ -1,0 +1,34 @@
+newBehaviour = {
+name         = "CM_Begleiter_tapfer",
+state0       = "name=cCreatureIdleAI",
+state1       = "name=cHirelingMoveAI,range=200.0,attitude=brave,fightstate=cEnemySimpleDefence",
+state2       = "name=cEnemySimpleDefence",
+state3       = "name=cEnemyFear,onattack=cEnemySimpleDefence",
+setState0    = "condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleDefence",
+defaultState = "cHirelingMoveAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+name         = "CM_Begleiter_feige_NEWENTRY",
+state0       = "name=cCreatureIdleAI",
+state1       = "name=cHirelingMoveAI,range=200.0,attitude=coward,fightstate=cEnemySimpleDefence",
+state2       = "name=cEnemySimpleDefence",
+state3       = "name=cEnemyFear,onattack=cEnemySimpleDefence",
+setState0    = "condition=onGroupMemberAttack,feasibility=1000,state=cEnemySimpleDefence",
+defaultState = "cHirelingMoveAI",
+}
+mgr.createBehaviour(newBehaviour);
+
+newBehaviour = {
+name         = "FarmAnimal",
+profile = "FARMANIMAL",
+state0="name=cFarmAnimalFollowFarmerKi",
+state1="name=cFarmGrazeKi, range=300.0",
+state2="name=cCreatureIdleAI",
+state3="name=cFleeAI",
+defaultState="cFarmGrazeKi",
+setState0="condition=onGroup, feasibility=1000, state=cFarmAnimalFollowFarmerKi",
+setState1="condition=onEnemyNear, feasibility=1000, state=cFleeAI, type=1, range=250",
+}
+mgr.createBehaviour(newBehaviour);

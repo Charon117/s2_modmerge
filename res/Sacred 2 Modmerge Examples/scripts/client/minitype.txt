@@ -1,0 +1,22 @@
+TYPE_GRASS = 9;
+TYPE_BLOODBONES = 999;
+
+newMini = {
+	name         = "Flowers 1",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/grassBleibtNichtSo.tga",
+	scale        = 1,
+	editorGroup  = "Blumen",
+}
+mgr.miniCreate(14, newMini);
+
+newMini = {
+	name         = "Flowers 1",
+	type         = TYPE_FLOWER,
+	groundType   = "PATCH_GTYPE_FLOWERS",
+	texture0Name = "miniobj/i_graeser01.tga",
+	scale        = 1,
+	editorGroup  = "#obsolete",
+}
+mgr.miniCreate(250, newMini);

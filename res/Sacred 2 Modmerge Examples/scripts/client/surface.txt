@@ -1,0 +1,42 @@
+SURFACE_FLAG_MASKED = 1;
+SURFACE_FLAG_TRANSPARENT = 2;
+SURFACE_FLAG_OPAQUE = 4;
+
+obj_d_s_b_tf = {
+  diffusePnt    = "object/diffSpecBumpPnt.shader",
+  diffusePntShd = "null.shader",
+  z             = "object/z.shader",
+  shadowmap     = "object/shadowMap.shader",
+  cubeshadowmap = "object/cubeShadowMap.shader",
+  ambDiff       = "object/ambDiffThinFilm.shader",
+}
+obj_d_s_b_mtl_NEW_ENTRY = {
+  diffusePnt    = "object/diffPntMtl.shader",
+  diffusePntShd = "object/diffPntShdMtl.shader",
+  z             = "object/z.shader",
+  shadowmap     = "object/shadowMap.shader",
+  cubeshadowmap = "object/cubeShadowMap.shader",
+  ambDiff       = "object/ambDiffMtl.shader",
+}
+
+newSurface = {
+  name         = "altar_surfB",
+  texture0Name = "maps/objects/architecture/b_altar_do.tga",
+  texture1Name = "maps/objects/architecture/b_altar_sg.tga",
+  texture2Name = "maps/objects/architecture/b_altar_n.tga",
+  texture3Name = "fx/lava_fx.tga",
+  flags        = SURFACE_FLAG_OPAQUE,
+  shader       = obj_fx_lava,
+}
+mgr.surfCreate(newSurface);
+
+newSurface = {
+  name         = "altar_surfA_NEW_ENTRY",
+  texture0Name = "maps/objects/architecture/b_altar_do.tga",
+  texture1Name = "maps/objects/architecture/b_altar_sg.tga",
+  texture2Name = "maps/objects/architecture/b_altar_n.tga",
+  flags        = SURFACE_FLAG_OPAQUE,
+  shader       = obj_d_s_b,
+}
+mgr.surfCreate(newSurface);
+

@@ -1,0 +1,40 @@
+local newBalanceValues = {
+  AdjustCriticalDamageFactor = 2500,
+  BasepointsMultiplier = 700,
+}
+mgr.setBalanceValues(newBalanceValues);
+
+local beValues = {
+  CHAMP_RUNE = 400,
+}
+mgr.setBalanceBase (beValues);
+
+
+local basetables = {
+  DamageFactorDiff = {1200,1250,1300,1450,1700},
+}
+mgr.setBaseTables(basetables);
+
+
+local subfamSlots =
+{
+  {"SUBFAM_HORSE_SADDLE",10},
+  {"SUBFAM_HORSE12_SADDLE",12},
+}
+mgr.loadSubfamSlots(subfamSlots)
+
+
+local subfamDroplists =
+{
+  {"SUBFAM_LIFE_ANIMAL",1801},
+  {"SUBFAM_LIFE12_ANIMAL",1301},
+}
+mgr.loadSubfamDroplists(subfamDroplists)
+
+
+local shrinkheadMinionMap =
+{
+  {"SUBFAM_LIFE_DRYAD",1552,1551,1553},
+  {"SUBFAM_LIFE12_DRYAD",1552,1551,1553},
+}
+mgr.loadShrinkheadMinionMap(shrinkheadMinionMap)

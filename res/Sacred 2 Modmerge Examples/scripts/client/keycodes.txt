@@ -1,0 +1,17 @@
+ -- Extra Keys can be added with the modmerge system
+ -- Existing ones will be overwritten
+
+Key = {
+
+	CTRL = 9999,
+	ALT = 2048,
+
+	ESCAPE = 9,
+	D1 = 99, D2 = 99, D3 = 99,
+	Z = 99,
+
+	NUMPAD7 = 99, NUMPAD8 = 99,
+	NUMPAD9 = 99, MEDIASELECT = 999,
+	NUMPADCOMMAEXTRAADDEDKEY = 999,
+}
+
