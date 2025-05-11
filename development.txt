@@ -1,7 +1,7 @@
-portal.txt seem to require continous ids
+portal.txt seem to require continuous ids
 
-books.txt seem to require continous local BOOK_*
+books.txt seem to require continuous local BOOK_*
 
 A proper parser should get written which understands the native format. Currently code after comment delimeters (--) gets handled, but it obviously shouldnt
 
-itemtype.txt: mgr.typeCreate needs to have continous ids
+itemtype.txt: mgr.typeCreate needs to have continuous ids
